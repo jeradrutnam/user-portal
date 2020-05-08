@@ -1,0 +1,2025 @@
+/*! exports provided: ACCESS_TOKEN, ACCESS_TOKEN_EXPIRE_IN, ACCESS_TOKEN_ISSUED_AT, AUTHORIZATION_CODE, ID_TOKEN, OIDC_SCOPE, PKCE_CODE_VERIFIER, REFRESH_TOKEN, SCOPE, TOKEN_TYPE, REQUEST_PARAMS, ISSUER */
+
+/*! exports provided: API_REQUEST_START, API_REQUEST_END, API_REQUEST */
+
+/*! exports provided: API_REQUEST_START, API_REQUEST_END, API_REQUEST, authenticateActionTypes, GlobalActionTypes, SET_PROFILE_SCHEMA_LOADER, SET_PROFILE_INFO_LOADER */
+
+/*! exports provided: APPLICATION_SETTINGS_STORAGE_KEY, PRIMARY_USER_STORE_IDENTIFIER, LOGIN_ERROR_PAGE_PATH, PAGE_NOT_FOUND_PATH, APPLICATIONS_PAGE_PATH, USER_PORTAL_IDENTIFIER, USER_DENIED_LOGOUT_REQUEST, USER_DENIED_CONSENT, AUTH_ERROR_TIME */
+
+/*! exports provided: APPLICATION_SETTINGS_STORAGE_KEY, PRIMARY_USER_STORE_IDENTIFIER, LOGIN_ERROR_PAGE_PATH, PAGE_NOT_FOUND_PATH, APPLICATIONS_PAGE_PATH, USER_PORTAL_IDENTIFIER, USER_DENIED_LOGOUT_REQUEST, USER_DENIED_CONSENT, AUTH_ERROR_TIME, LOGIN_SCOPE, HUMAN_TASK_SCOPE, SETTINGS_SECTION_LIST_ITEMS_DEFAULT_COUNT, SETTINGS_SECTION_LIST_ITEMS_MAX_COUNT, DESKTOP_CONTENT_TOP_PADDING, MOBILE_CONTENT_PADDING, RECENT_APPLICATIONS_LIST_LIMIT, ADD_LOCAL_LINKED_ACCOUNT_FORM_IDENTIFIER, GRAVATAR_URL, WARNING_ACCOUNT_STATUS_UPPER_LIMIT, ERROR_ACCOUNT_STATUS_UPPER_LIMIT, OVERVIEW, PERSONAL_INFO, PROFILE, LINKED_ACCOUNTS, EXPORT_PROFILE, APPLICATIONS, SECURITY, CHANGE_PASSWORD, ACCOUNT_RECOVERY, SECURITY_QUESTIONS, EMAIL_RECOVERY, MULTI_FACTOR_AUTHENTICATION, SMS, FIDO, AUTHENTICATOR_APP, ACTIVE_SESSIONS, MANAGE_CONSENTS, OPERATIONS, ACCOUNT_STATUS, ACCOUNT_ACTIVITY, ACCOUNT_SECURITY, CONSENTS_CONTROL, EXTERNAL_LOGINS */
+
+/*! exports provided: AccountRecoveryComponent */
+
+/*! exports provided: AccountSecurityPage */
+
+/*! exports provided: AccountSecurityPage, ApplicationsPage, ConsentManagementPage, PageNotFound, LoginErrorPage, OverviewPage, PersonalInfoPage, PrivacyPage, OperationsPage */
+
+/*! exports provided: AccountSecurityWidget */
+
+/*! exports provided: AccountSecurityWidget, AccountStatusWidget, ConsentManagementWidget, UserSessionsWidget */
+
+/*! exports provided: AccountStatusWidget */
+
+/*! exports provided: AdvancedSearch */
+
+/*! exports provided: Alert */
+
+/*! exports provided: AlertLevels */
+
+/*! exports provided: AlertLevels, HttpMethods, AcceptHeaderValues, ContentTypeHeaderValues, emptyProfileInfo, emptyStorageApplicationSettingsItem, emptyIdentityAppsSettings */
+
+/*! exports provided: AllApplications */
+
+/*! exports provided: App */
+
+/*! exports provided: AppAvatar */
+
+/*! exports provided: AppConfig */
+
+/*! exports provided: AppConsentEdit */
+
+/*! exports provided: AppConsentList */
+
+/*! exports provided: AppConstants */
+
+/*! exports provided: AppConstants, CommonConstants, ISConstants, PatternConstants, TokenConstants, UIConstants */
+
+/*! exports provided: AppFooter */
+
+/*! exports provided: ApplicationList */
+
+/*! exports provided: ApplicationListItem */
+
+/*! exports provided: ApplicationSearch */
+
+/*! exports provided: Applications */
+
+/*! exports provided: Applications, AccountRecoveryComponent, Approvals, ChangePassword, Consents, AppFooter, Header, LinkedAccounts, FIDOAuthenticator, SMSOTPAuthenticator, TOTPAuthenticator, MultiFactorAuthentication, Overview, Profile, ProfileExport, Avatar, Alert, AppAvatar, LanguageSwitcher, AdvancedSearch, DangerZone, DangerZoneGroup, EditSection, EmptyPlaceholder, ErrorBoundary, GlobalLoader, ThemeIcon, PageHeader, ProtectedRoute, SettingsSection, Logo, Title, UserImagePlaceHolder, HomeTileIcon, UserAvatar, ModalComponent, SidePanelWrapper, UserSessionsComponent, UserSessionsEdit, UserSessionsList, FederatedAssociations */
+
+/*! exports provided: ApplicationsPage */
+
+/*! exports provided: ApprovalStatus */
+
+/*! exports provided: Approvals */
+
+/*! exports provided: ApprovalsEdit */
+
+/*! exports provided: ApprovalsList */
+
+/*! exports provided: AuthenticateUtils */
+
+/*! exports provided: AuthenticateUtils, ContextUtils, EncodeDecodeUtils, HttpUtils, ImageUtils, RouteUtils, SearchUtils, LocalStorageUtils, StringUtils, URLUtils */
+
+/*! exports provided: Avatar */
+
+/*! exports provided: Avatar, Alert, AppAvatar, LanguageSwitcher, AdvancedSearch, DangerZone, DangerZoneGroup, EditSection, EmptyPlaceholder, ErrorBoundary, GlobalLoader, ThemeIcon, PageHeader, ProtectedRoute, SettingsSection, Logo, Title, UserImagePlaceHolder, HomeTileIcon, UserAvatar, ModalComponent */
+
+/*! exports provided: AxiosHttpClient */
+
+/*! exports provided: BASIC_TYPE, AUTHORIZATION_CODE_TYPE */
+
+/*! exports provided: BASIC_TYPE, AUTHORIZATION_CODE_TYPE, SERVICE_RESOURCES, AUTHORIZATION_ENDPOINT, TOKEN_ENDPOINT, REVOKE_TOKEN_ENDPOINT, END_SESSION_ENDPOINT, JWKS_ENDPOINT, OP_CONFIG_INITIATED, TENANT, CALLBACK_URL, ACCESS_TOKEN, ACCESS_TOKEN_EXPIRE_IN, ACCESS_TOKEN_ISSUED_AT, AUTHORIZATION_CODE, ID_TOKEN, OIDC_SCOPE, PKCE_CODE_VERIFIER, REFRESH_TOKEN, SCOPE, TOKEN_TYPE, REQUEST_PARAMS, ISSUER, USERIMAGE, USERNAME, EMAIL, DISPLAY_NAME */
+
+/*! exports provided: ChangePassword */
+
+/*! exports provided: CommonConstants */
+
+/*! exports provided: CommonHelpers */
+
+/*! exports provided: ConsentManagementPage */
+
+/*! exports provided: ConsentManagementWidget */
+
+/*! exports provided: Consents */
+
+/*! exports provided: ContextUtils */
+
+/*! exports provided: DangerZone, DangerZoneGroup */
+
+/*! exports provided: DefaultPageLayout */
+
+/*! exports provided: DefaultPageLayout, ErrorPageLayout, InnerPageLayout, LoginPageLayout */
+
+/*! exports provided: EditSection */
+
+/*! exports provided: EmailRecovery */
+
+/*! exports provided: EmailRecovery, SecurityQuestionsComponent */
+
+/*! exports provided: EmptyPlaceholder */
+
+/*! exports provided: Encode, Decode */
+
+/*! exports provided: EncodeDecodeUtils */
+
+/*! exports provided: ErrorBoundary */
+
+/*! exports provided: ErrorPageLayout */
+
+/*! exports provided: FIDOAuthenticator */
+
+/*! exports provided: FIDOAuthenticator, SMSOTPAuthenticator, TOTPAuthenticator */
+
+/*! exports provided: FIDOAuthenticator, SMSOTPAuthenticator, TOTPAuthenticator, MultiFactorAuthentication */
+
+/*! exports provided: FederatedAssociations */
+
+/*! exports provided: Field, GroupFields */
+
+/*! exports provided: FormValidation */
+
+/*! exports provided: Forms */
+
+/*! exports provided: Forms, Field, GroupFields, useTrigger, useNonInitialEffect, filterPassedProps */
+
+/*! exports provided: GlobalActionTypes */
+
+/*! exports provided: GlobalConfig */
+
+/*! exports provided: GlobalLoader */
+
+/*! exports provided: HTTPRequestHeaders */
+
+/*! exports provided: Header */
+
+/*! exports provided: HttpMethods */
+
+/*! exports provided: HttpMethods, AcceptHeaderValues, ContentTypeHeaderValues */
+
+/*! exports provided: HttpUtils */
+
+/*! exports provided: ISConstants */
+
+/*! exports provided: ImageUtils */
+
+/*! exports provided: InnerField */
+
+/*! exports provided: InnerField, InnerGroupFields, Field, GroupFields */
+
+/*! exports provided: InnerGroupFields */
+
+/*! exports provided: InnerPageLayout */
+
+/*! exports provided: LOGIN_SCOPE, HUMAN_TASK_SCOPE */
+
+/*! exports provided: LanguageSwitcher */
+
+/*! exports provided: LanguageSwitcherDropdown */
+
+/*! exports provided: LinkedAccounts */
+
+/*! exports provided: LinkedAccountsEdit */
+
+/*! exports provided: LinkedAccountsList */
+
+/*! exports provided: LoadersReducer */
+
+/*! exports provided: LocalStorageUtils */
+
+/*! exports provided: LoginErrorPage */
+
+/*! exports provided: LoginPageLayout */
+
+/*! exports provided: Logo, Title, UserImagePlaceHolder, HomeTileIcon */
+
+/*! exports provided: LogoImage, UserImage, HomeTileIconImages, ConsentedAppIcon, DefaultAppIcon, SidePanelIcons, SettingsSectionIcons, MFAIcons, AccountRecoveryIcons, AccountStatusShields, WidgetIcons, customCSS, AdvancedSearchIcons, EmptyPlaceholderIllustrations, AppIconBackgrounds, ThirdPartyLogos, AlertIcons, QRCodeScan, EnterCode */
+
+/*! exports provided: ModalComponent */
+
+/*! exports provided: MultiFactorAuthentication */
+
+/*! exports provided: OVERVIEW, PERSONAL_INFO, PROFILE, LINKED_ACCOUNTS, EXPORT_PROFILE, APPLICATIONS, SECURITY, CHANGE_PASSWORD, ACCOUNT_RECOVERY, SECURITY_QUESTIONS, EMAIL_RECOVERY, MULTI_FACTOR_AUTHENTICATION, SMS, FIDO, AUTHENTICATOR_APP, ACTIVE_SESSIONS, MANAGE_CONSENTS, OPERATIONS, ACCOUNT_STATUS, ACCOUNT_ACTIVITY, ACCOUNT_SECURITY, CONSENTS_CONTROL, EXTERNAL_LOGINS */
+
+/*! exports provided: OperationsPage */
+
+/*! exports provided: Overview */
+
+/*! exports provided: OverviewPage */
+
+/*! exports provided: PageHeader */
+
+/*! exports provided: PageNotFound */
+
+/*! exports provided: PageNotFound, LoginErrorPage */
+
+/*! exports provided: Password */
+
+/*! exports provided: PatternConstants */
+
+/*! exports provided: PersonalInfoPage */
+
+/*! exports provided: PrivacyPage */
+
+/*! exports provided: Profile */
+
+/*! exports provided: Profile, ProfileExport */
+
+/*! exports provided: ProfileActionTypes */
+
+/*! exports provided: ProfileCompletionStatus, emptyProfileCompletion, createEmptyProfile */
+
+/*! exports provided: ProfileExport */
+
+/*! exports provided: ProtectedRoute */
+
+/*! exports provided: QueryParameters */
+
+/*! exports provided: RecentApplicationCard */
+
+/*! exports provided: RecentApplications */
+
+/*! exports provided: RouteUtils */
+
+/*! exports provided: SERVICE_RESOURCES, AUTHORIZATION_ENDPOINT, TOKEN_ENDPOINT, REVOKE_TOKEN_ENDPOINT, END_SESSION_ENDPOINT, JWKS_ENDPOINT, OP_CONFIG_INITIATED, TENANT, CALLBACK_URL */
+
+/*! exports provided: SETTINGS_SECTION_LIST_ITEMS_DEFAULT_COUNT, SETTINGS_SECTION_LIST_ITEMS_MAX_COUNT, DESKTOP_CONTENT_TOP_PADDING, MOBILE_CONTENT_PADDING, RECENT_APPLICATIONS_LIST_LIMIT, ADD_LOCAL_LINKED_ACCOUNT_FORM_IDENTIFIER, GRAVATAR_URL, WARNING_ACCOUNT_STATUS_UPPER_LIMIT, ERROR_ACCOUNT_STATUS_UPPER_LIMIT */
+
+/*! exports provided: SET_PROFILE_SCHEMA_LOADER, SET_PROFILE_INFO_LOADER */
+
+/*! exports provided: SMSOTPAuthenticator */
+
+/*! exports provided: SearchUtils */
+
+/*! exports provided: SecurityQuestionsComponent */
+
+/*! exports provided: ServiceResourcesEndpoint */
+
+/*! exports provided: ServiceResourcesEndpoint, GlobalConfig, setMomentJSLocale, i18n, SupportedLanguages, routes, LogoImage, UserImage, HomeTileIconImages, ConsentedAppIcon, DefaultAppIcon, SidePanelIcons, SettingsSectionIcons, MFAIcons, AccountRecoveryIcons, AccountStatusShields, WidgetIcons, customCSS, AdvancedSearchIcons, EmptyPlaceholderIllustrations, AppIconBackgrounds, ThirdPartyLogos, AlertIcons, QRCodeScan, EnterCode */
+
+/*! exports provided: SettingsSection */
+
+/*! exports provided: SidePanel */
+
+/*! exports provided: SidePanelItems */
+
+/*! exports provided: SidePanelMobile */
+
+/*! exports provided: SidePanelWrapper */
+
+/*! exports provided: SignIn */
+
+/*! exports provided: SignIn, SignOut */
+
+/*! exports provided: SignOut */
+
+/*! exports provided: StringUtils */
+
+/*! exports provided: TOTPAuthenticator */
+
+/*! exports provided: Theme */
+
+/*! exports provided: Theme, ThemeLessIndex, defaultThemeVariables, Themes, StatusShieldDanger, StatusShieldGood, StatusShieldWarning, EmailOTPIcon, FIDOLogo, SMSOTPIcon, TOTPIcon, AlertIcon, AppIcon, ArrowRight, AuthenticatorAppIcon, BasicAuthIcon, BlockedMagnifierIcon, BoxIcon, CaretRightIcon, CertificateColoredIcon, CertificateIcon, ClaimsIcon, ClockColoredIcon, CloseIcon, CodeIcon, ConsentIcon, ControlsIcon, CrossIcon, DashboardIcon, DatabaseIcon, DatabaseAvatar, DocumentIcon, DotIcon, DragIcon, DragSquaresIcon, EmailIcon, ErrorIcon, FingerprintIcon, ForbiddenIcon, GearsIcon, InfoIcon, LaunchIcon, LockIcon, LockShieldIcon, MagnifierColoredIcon, MagnifierIcon, MaximizeIcon, MinimizeIcon, MonitorIcon, PackageIcon, PadlockIcon, Padlock, PinIcon, PlugIcon, ReportIcon, SecurityQuestionsIcon, SMSIcon, SpinWheelIcon, SuccessIcon, TickCircleIcon, ToolsIcon, UserIcon, UserStoreIcon, WarningIcon, AuthenticationCapabilityIcon, ProvisionCapabilityIcon, AssociatedAccountsMiniIllustration, AssociatedAccountsIllustration, ChangePasswordMiniIllustration, ChangePasswordIllustration, EnterVerificationCode, EmptySearchResultsIllustration, ProfileExportMiniIllustration, ProfileExportIllustration, QRCodeScanIllustration, SecurityQuestionsMiniIllustration, SecurityQuestionsIllustration, CustomApplicationTemplateIllustration, OIDCWebAppTemplateIllustration, PassiveSTSTemplateIllustration, SAMLWebAppTemplateIllustration, SPATemplateIllustration, WindowsTemplateIllustration, WSTrustTemplateIllustration, FileUploadIllustration, CertificateIllustration, CertificateBadge, CertificateRibbon, CertificateAvatar, ExpertModeIdPIcon, FacebookIdPIcon, GithubIdPIcon, GoogleIdPIcon, TwitterIdPIcon, ActiveDirectoryUserstoreIllustration, JDBCUserstoreIllustration, LDAPUserstoreIllustration, GravatarLogo, Logo, OIDCLogo, OpenIDLogo, SamlLogo, WSFedLogo, WSTrustLogo, AndroidLogo, AngularLogo, AppleLogo, CSharpLogo, CordovaLogo, DotNetLogo, HTMLLogo, JWTLogo, JavaLogo, JavaScriptLogo, NodeJSLogo, ReactLogo, VueLogo, OrangeAppIconBackground, DummyUser, FacebookLogo, GoogleLogo, TwitterLogo, Office365Logo, MicrosoftLogo, YahooLogo, HomeTileIcons, SCIMLogo, SalesforceLogo, SPMLLogo, SidePanelIconSet, MFAIconSet, AccountRecoveryIconSet, SettigsSectionIconSet */
+
+/*! exports provided: ThemeIcon */
+
+/*! exports provided: TokenConstants */
+
+/*! exports provided: UIConstants */
+
+/*! exports provided: URLUtils */
+
+/*! exports provided: USERIMAGE, USERNAME, EMAIL, DISPLAY_NAME */
+
+/*! exports provided: UserAgentParser */
+
+/*! exports provided: UserAvatar */
+
+/*! exports provided: UserSessionsComponent */
+
+/*! exports provided: UserSessionsComponent, UserSessionsEdit, UserSessionsList */
+
+/*! exports provided: UserSessionsEdit */
+
+/*! exports provided: UserSessionsList */
+
+/*! exports provided: UserSessionsWidget */
+
+/*! exports provided: apiMiddleware */
+
+/*! exports provided: apiMiddleware, getAuthenticationCallbackUrl, handleSignIn, handleSignOut, updateAuthenticationCallbackUrl */
+
+/*! exports provided: apiRequestStart, apiRequestEnd, apiRequest */
+
+/*! exports provided: apiRequestStart, apiRequestEnd, apiRequest, setSignIn, setSignOut, resetAuthentication, setProfileInfo, setScimSchemas, getScimSchemas, getProfileInformation, handleSignIn, handleSignOut, showGlobalLoader, hideGlobalLoader, toggleApplicationsPageVisibility, initializeAlertSystem, addAlert, setProfileSchemaLoader, setProfileInfoLoader, setProfileCompletion, setProfileLinkedAccounts, toggleSCIMEnabled, getProfileLinkedAccounts */
+
+/*! exports provided: authenticateActionTypes */
+
+/*! exports provided: authenticateInitialState, authenticateReducer */
+
+/*! exports provided: authenticateInitialState, authenticateReducer, globalReducer, profileReducer */
+
+/*! exports provided: base64MimeType */
+
+/*! exports provided: buildSearchQuery */
+
+/*! exports provided: checkEnabled, filteredRoutes, getAppConfig */
+
+/*! exports provided: common */
+
+/*! exports provided: common, views */
+
+/*! exports provided: creatPIICategory, ConsentState, createEmptyConsentReceipt, createEmptyConsent */
+
+/*! exports provided: createEmptyChallenge */
+
+/*! exports provided: default */
+
+/*! exports provided: default, ReactComponent */
+
+/*! exports provided: email, mobileNumber, url, imageUrl */
+
+/*! exports provided: emptyProfileInfo */
+
+/*! exports provided: emptyStorageApplicationSettingsItem */
+
+/*! exports provided: emptyStorageApplicationSettingsItem, emptyIdentityAppsSettings */
+
+/*! exports provided: emptyUserSessions, emptyUserSession */
+
+/*! exports provided: en, pt, si, ta */
+
+/*! exports provided: endUserSession, hasLoginPermission, hasScope */
+
+/*! exports provided: endUserSession, hasLoginPermission, hasScope, onHttpRequestStart, onHttpRequestSuccess, onHttpRequestError, onHttpRequestFinish, flattenSchemas, isMultiValuedProfileAttribute, flattenProfileInfo, getProfileCompletion, buildSearchQuery, setValueInLocalStorage, getValueFromLocalStorage, toSentenceCase, checkEnabled, filteredRoutes, getAppConfig */
+
+/*! exports provided: fetchApplications */
+
+/*! exports provided: fetchApplications, fetchPendingApprovals, fetchPendingApprovalDetails, updatePendingApprovalStatus, updatePassword, getAssociations, addAccountAssociation, removeLinkedAccount, removeAllLinkedAccounts, switchAccount, getUserInfo, getGravatarImage, getProfileInfo, updateProfileInfo, getProfileSchemas, getSecurityQs, addSecurityQs, updateSecurityQs, getMetaData, updateDeviceName, deleteDevice, endFidoFlow, startFidoFlow, startFidoUsernamelessFlow, fetchUserSessions, terminateUserSession, terminateAllUserSessions, getTotpQrCode, validateTOTPCode, refreshTOTPCode, initTOTPCode, deleteTOTP, getTOTPSecret */
+
+/*! exports provided: fetchConsentedApps, fetchConsentReceipt, revokeConsentedApp, updateConsentedClaims */
+
+/*! exports provided: fetchPendingApprovals, fetchPendingApprovalDetails, updatePendingApprovalStatus */
+
+/*! exports provided: fetchUserSessions, terminateUserSession, terminateAllUserSessions */
+
+/*! exports provided: filterPassedProps */
+
+/*! exports provided: flattenSchemas, isMultiValuedProfileAttribute, flattenProfileInfo, getProfileCompletion */
+
+/*! exports provided: fontName, fontSmoothing, headerFont, pageFont, googleFontName, importGoogleFonts, googleFontSizes, googleSubset, googleProtocol, googleFontRequest, bold, normal, emSize, fontSize, relativeBorderRadius, absoluteBorderRadius, defaultBorderRadius, primaryColor, secondaryColor, lightPrimaryColor, lightSecondaryColor, headerFontWeight, headerLineHeight, h1, h2, h3, h4, h5, inputBackground, inputVerticalPadding, inputHorizontalPadding, inputPadding, inputColor, inputPlaceholderColor, inputPlaceholderFocusColor, inputLineHeight, focusedFormBorderColor, focusedFormMutedBorderColor, miniSize, tinySize, smallSize, mediumSize, largeSize, bigSize, hugeSize, massiveSize, pageBackground, pageOverflowX, lineHeight, textColor, paragraphMargin, paragraphLineHeight, linkColor, linkUnderline, linkHoverColor, linkHoverUnderline, useCustomScrollbars, customScrollbarWidth, customScrollbarHeight, trackBackground, trackBorderRadius, thumbBorderRadius, thumbBackground, thumbTransition, thumbInactiveBackground, thumbHoverBackground, trackInvertedBackground, thumbInvertedBackground, thumbInvertedInactiveBackground, thumbInvertedHoverBackground, highlightBackground, highlightColor, inputHighlightBackground, inputHighlightColor, loaderSize, loaderSpeed, loaderLineWidth, loaderFillColor, loaderLineColor, invertedLoaderFillColor, invertedLoaderLineColor, columnCount, defaultDuration, defaultEasing, mobileBreakpoint, tabletBreakpoint, computerBreakpoint, largeMonitorBreakpoint, widescreenMonitorBreakpoint, red, orange, yellow, olive, green, teal, blue, violet, purple, pink, brown, grey, black, lightRed, lightOrange, lightYellow, lightOlive, lightGreen, lightTeal, lightBlue, lightViolet, lightPurple, lightPink, lightBrown, lightGrey, lightBlack, fullBlack, offWhite, darkWhite, midWhite, white, redBackground, orangeBackground, yellowBackground, oliveBackground, greenBackground, tealBackground, blueBackground, violetBackground, purpleBackground, pinkBackground, brownBackground, redHeaderColor, oliveHeaderColor, greenHeaderColor, yellowHeaderColor, blueHeaderColor, tealHeaderColor, pinkHeaderColor, violetHeaderColor, purpleHeaderColor, orangeHeaderColor, brownHeaderColor, redTextColor, orangeTextColor, yellowTextColor, oliveTextColor, greenTextColor, tealTextColor, blueTextColor, violetTextColor, purpleTextColor, pinkTextColor, brownTextColor, redBorderColor, orangeBorderColor, yellowBorderColor, oliveBorderColor, greenBorderColor, tealBorderColor, blueBorderColor, violetBorderColor, purpleBorderColor, pinkBorderColor, brownBorderColor, subtleTransparentBlack, transparentBlack, strongTransparentBlack, veryStrongTransparentBlack, subtleTransparentWhite, transparentWhite, strongTransparentWhite, subtleGradient, subtleShadow, floatingShadow, positiveColor, positiveBackgroundColor, positiveBorderColor, positiveHeaderColor, positiveTextColor, negativeColor, negativeBackgroundColor, negativeBorderColor, negativeHeaderColor, negativeTextColor, infoColor, infoBackgroundColor, infoBorderColor, infoHeaderColor, infoTextColor, warningColor, warningBorderColor, warningBackgroundColor, warningHeaderColor, warningTextColor, imagePath, fontPath, mini, tiny, small, medium, large, big, huge, massive, relativeMini, relativeTiny, relativeSmall, relativeMedium, relativeLarge, relativeBig, relativeHuge, relativeMassive, absoluteMini, absoluteTiny, absoluteSmall, absoluteMedium, absoluteLarge, absoluteBig, absoluteHuge, absoluteMassive, iconWidth, darkTextColor, mutedTextColor, lightTextColor, unselectedTextColor, hoveredTextColor, pressedTextColor, selectedTextColor, disabledTextColor, invertedTextColor, invertedMutedTextColor, invertedLightTextColor, invertedUnselectedTextColor, invertedHoveredTextColor, invertedPressedTextColor, invertedSelectedTextColor, invertedDisabledTextColor, facebookColor, twitterColor, googlePlusColor, linkedInColor, youtubeColor, pinterestColor, vkColor, instagramColor, circularRadius, borderColor, strongBorderColor, internalBorderColor, selectedBorderColor, strongSelectedBorderColor, disabledBorderColor, solidInternalBorderColor, solidBorderColor, solidSelectedBorderColor, whiteBorderColor, selectedWhiteBorderColor, solidWhiteBorderColor, selectedSolidWhiteBorderColor, loaderOffset, loaderMargin, scrollbarWidth, glyphWidth, lineHeightOffset, headerLineHeightOffset, headerTopMargin, headerBottomMargin, headerMargin, pageMinWidth, successBackgroundColor, successColor, successBorderColor, successHeaderColor, successTextColor, errorBackgroundColor, errorColor, errorBorderColor, errorHeaderColor, errorTextColor, largestMobileScreen, largestTabletScreen, largestSmallMonitor, largestLargeMonitor, 1px, 2px, 3px, 4px, 5px, 6px, 7px, 8px, 9px, 10px, 11px, 12px, 13px, 14px, 15px, 16px, 17px, 18px, 19px, 20px, 21px, 22px, 23px, 24px, 25px, 26px, 27px, 28px, 29px, 30px, 31px, 32px, 33px, 34px, 35px, 36px, 37px, 38px, 39px, 40px, 41px, 42px, 43px, 44px, 45px, 46px, 47px, 48px, 49px, 50px, 51px, 52px, 53px, 54px, 55px, 56px, 57px, 58px, 59px, 60px, 61px, 62px, 63px, 64px, relative1px, relative2px, relative3px, relative4px, relative5px, relative6px, relative7px, relative8px, relative9px, relative10px, relative11px, relative12px, relative13px, relative14px, relative15px, relative16px, relative17px, relative18px, relative19px, relative20px, relative21px, relative22px, relative23px, relative24px, relative25px, relative26px, relative27px, relative28px, relative29px, relative30px, relative31px, relative32px, relative33px, relative34px, relative35px, relative36px, relative37px, relative38px, relative39px, relative40px, relative41px, relative42px, relative43px, relative44px, relative45px, relative46px, relative47px, relative48px, relative49px, relative50px, relative51px, relative52px, relative53px, relative54px, relative55px, relative56px, relative57px, relative58px, relative59px, relative60px, relative61px, relative62px, relative63px, relative64px, oneWide, twoWide, threeWide, fourWide, fiveWide, sixWide, sevenWide, eightWide, nineWide, tenWide, elevenWide, twelveWide, thirteenWide, fourteenWide, fifteenWide, sixteenWide, oneColumn, twoColumn, threeColumn, fourColumn, fiveColumn, sixColumn, sevenColumn, eightColumn, nineColumn, tenColumn, elevenColumn, twelveColumn, thirteenColumn, fourteenColumn, fifteenColumn, sixteenColumn, disabledOpacity, floatingShadowHover, primaryColorHover, secondaryColorHover, lightPrimaryColorHover, lightSecondaryColorHover, redHover, orangeHover, yellowHover, oliveHover, greenHover, tealHover, blueHover, violetHover, purpleHover, pinkHover, brownHover, lightRedHover, lightOrangeHover, lightYellowHover, lightOliveHover, lightGreenHover, lightTealHover, lightBlueHover, lightVioletHover, lightPurpleHover, lightPinkHover, lightBrownHover, lightGreyHover, lightBlackHover, positiveColorHover, negativeColorHover, facebookHoverColor, twitterHoverColor, googlePlusHoverColor, linkedInHoverColor, youtubeHoverColor, instagramHoverColor, pinterestHoverColor, vkHoverColor, fullBlackHover, blackHover, greyHover, whiteHover, offWhiteHover, darkWhiteHover, primaryColorFocus, secondaryColorFocus, lightPrimaryColorFocus, lightSecondaryColorFocus, redFocus, orangeFocus, yellowFocus, oliveFocus, greenFocus, tealFocus, blueFocus, violetFocus, purpleFocus, pinkFocus, brownFocus, lightRedFocus, lightOrangeFocus, lightYellowFocus, lightOliveFocus, lightGreenFocus, lightTealFocus, lightBlueFocus, lightVioletFocus, lightPurpleFocus, lightPinkFocus, lightBrownFocus, lightGreyFocus, lightBlackFocus, positiveColorFocus, negativeColorFocus, facebookFocusColor, twitterFocusColor, googlePlusFocusColor, linkedInFocusColor, youtubeFocusColor, instagramFocusColor, pinterestFocusColor, vkFocusColor, fullBlackFocus, blackFocus, greyFocus, whiteFocus, offWhiteFocus, darkWhiteFocus, primaryColorDown, secondaryColorDown, lightPrimaryColorDown, lightSecondaryColorDown, redDown, orangeDown, yellowDown, oliveDown, greenDown, tealDown, blueDown, violetDown, purpleDown, pinkDown, brownDown, lightRedDown, lightOrangeDown, lightYellowDown, lightOliveDown, lightGreenDown, lightTealDown, lightBlueDown, lightVioletDown, lightPurpleDown, lightPinkDown, lightBrownDown, lightGreyDown, lightBlackDown, positiveColorDown, negativeColorDown, facebookDownColor, twitterDownColor, googlePlusDownColor, linkedInDownColor, youtubeDownColor, instagramDownColor, pinterestDownColor, vkDownColor, fullBlackDown, blackDown, greyDown, whiteDown, offWhiteDown, darkWhiteDown, primaryColorActive, secondaryColorActive, lightPrimaryColorActive, lightSecondaryColorActive, redActive, orangeActive, yellowActive, oliveActive, greenActive, tealActive, blueActive, violetActive, purpleActive, pinkActive, brownActive, lightRedActive, lightOrangeActive, lightYellowActive, lightOliveActive, lightGreenActive, lightTealActive, lightBlueActive, lightVioletActive, lightPurpleActive, lightPinkActive, lightBrownActive, lightGreyActive, lightBlackActive, positiveColorActive, negativeColorActive, facebookActiveColor, twitterActiveColor, googlePlusActiveColor, linkedInActiveColor, youtubeActiveColor, instagramActiveColor, pinterestActiveColor, vkActiveColor, fullBlackActive, blackActive, greyActive, whiteActive, offWhiteActive, darkWhiteActive, iconFont, lightFontColor, defaultBorderWidth, defaultBorderColor, lightGray, darkGray, athensGray, nobel, iron, whiteSmoke, dustyGray, galleryGray, doveGray, dullGreen, paleGray, alabaster, littleWidth, iconHoverBgColor, iconNano, iconDefault, iconMicro, iconMini, iconTiny, iconSmall, iconMedium, iconLarge, iconBig, iconHuge, iconMassive, headerHeight, h6, h6SubHeaderFontSize, advancedSearchWidth, advancedSearchDropdownMinWidth, advancedSearchDropdownMaxWidth, advancedSearchBorder, overviewPageWidgetHeaderMinHeight, defaultCardHoverBoxShadow, defaultCardTransition, defaultCardBorder, readOnlyFormFieldBgColor, default */
+
+/*! exports provided: getAssociations, addAccountAssociation, removeLinkedAccount, removeAllLinkedAccounts, switchAccount */
+
+/*! exports provided: getAuthenticationCallbackUrl, handleSignIn, handleSignOut, updateAuthenticationCallbackUrl */
+
+/*! exports provided: getEmailHash, base64URLEncode, getCodeVerifier, getCodeChallenge, getSupportedSignatureAlgorithms, getJWKForTheIdToken, isValidIdToken */
+
+/*! exports provided: getFederatedAssociations, deleteFederatedAssociation, deleteAllFederatedAssociation */
+
+/*! exports provided: getMetaData, updateDeviceName, deleteDevice, endFidoFlow, startFidoFlow, startFidoUsernamelessFlow */
+
+/*! exports provided: getSecurityQs, addSecurityQs, updateSecurityQs */
+
+/*! exports provided: getTokenRequestHeaders */
+
+/*! exports provided: getTotpQrCode, validateTOTPCode, refreshTOTPCode, initTOTPCode, deleteTOTP, getTOTPSecret */
+
+/*! exports provided: getUserInfo, getGravatarImage, getProfileInfo, updateProfileInfo, getProfileSchemas */
+
+/*! exports provided: globalReducer */
+
+/*! exports provided: hasAuthorizationCode, sendAuthorizationRequest, sendTokenRequest, sendRefreshTokenRequest, sendRevokeTokenRequest, getGravatar, getAuthenticatedUser, sendAccountSwitchRequest, sendSignInRequest, handleSignIn */
+
+/*! exports provided: history */
+
+/*! exports provided: history, getTokenRequestHeaders, base64MimeType, resolveUserDisplayName, resolveUsername, resolveUserStoreEmbeddedUsername, UserAgentParser, AppConfig */
+
+/*! exports provided: isFeatureEnabled, hasRequiredScopes, isPortalAccessGranted */
+
+/*! exports provided: isFeatureEnabled, hasRequiredScopes, isPortalAccessGranted, history, HTTPRequestHeaders, resolveUserDisplayName, resolveUsername, resolveUserStoreEmbeddedUsername, UserAgentParser, CommonHelpers */
+
+/*! exports provided: isOPConfigInitiated, setAuthorizeEndpoint, setTokenEndpoint, setEndSessionEndpoint, setJwksUri, setRevokeTokenEndpoint, setOPConfigInitiated, setCallbackURL, setTenant, setIssuer, initOPConfiguration, resetOPConfiguration, getAuthorizeEndpoint, getTokenEndpoint, getRevokeTokenEndpoint, getEndSessionEndpoint, getJwksUri, getUsername, getTenant, getIssuer, isValidOPConfig */
+
+/*! exports provided: isTextField, isRadioField, isPasswordField, isDropdownField, isCheckBoxField, isQueryParamsField, isToggleField, isSubmitField, isResetField, isButtonField, isDivider, isCustomField, isInputField */
+
+/*! exports provided: onHttpRequestStart, onHttpRequestSuccess, onHttpRequestError, onHttpRequestFinish */
+
+/*! exports provided: profileReducer */
+
+/*! exports provided: reducers */
+
+/*! exports provided: removeSessionParameter, setSessionParameter, getSessionParameter, endAuthenticatedSession, initUserSession, getAllSessionParameters, getAccessToken */
+
+/*! exports provided: resolveUserDisplayName, resolveUsername, resolveUserStoreEmbeddedUsername */
+
+/*! exports provided: routes */
+
+/*! exports provided: sendSignOutRequest, handleSignOut */
+
+/*! exports provided: setMomentJSLocale, i18n, SupportedLanguages */
+
+/*! exports provided: setProfileCompletion, setProfileLinkedAccounts, toggleSCIMEnabled, getProfileLinkedAccounts */
+
+/*! exports provided: setProfileSchemaLoader, setProfileInfoLoader */
+
+/*! exports provided: setSignIn, setSignOut, resetAuthentication, setProfileInfo, setScimSchemas, getScimSchemas, getProfileInformation, handleSignIn, handleSignOut */
+
+/*! exports provided: setValueInLocalStorage, getValueFromLocalStorage */
+
+/*! exports provided: showGlobalLoader, hideGlobalLoader, toggleApplicationsPageVisibility, initializeAlertSystem, addAlert */
+
+/*! exports provided: staticDecorator */
+
+/*! exports provided: store */
+
+/*! exports provided: toSentenceCase */
+
+/*! exports provided: updatePassword */
+
+/*! exports provided: useClickOutside */
+
+/*! exports provided: useNonInitialEffect */
+
+/*! exports provided: useTrigger */
+
+/*! exports provided: useTrigger, useNonInitialEffect, filterPassedProps */
+
+/*! exports provided: views */
+
+/*! no exports provided */
+
+/*! no static exports found */
+
+/*!*********************!*\
+  !*** ./src/app.tsx ***!
+  \*********************/
+
+/*!***********************!*\
+  !*** ./src/index.tsx ***!
+  \***********************/
+
+/*!**************************!*\
+  !*** ./src/api/index.ts ***!
+  \**************************/
+
+/*!***************************!*\
+  !*** ./src/configs/ui.ts ***!
+  \***************************/
+
+/*!***************************!*\
+  !*** ./src/models/api.ts ***!
+  \***************************/
+
+/*!****************************!*\
+  !*** ./src/api/profile.ts ***!
+  \****************************/
+
+/*!****************************!*\
+  !*** ./src/configs/app.ts ***!
+  \****************************/
+
+/*!****************************!*\
+  !*** ./src/hooks/index.ts ***!
+  \****************************/
+
+/*!****************************!*\
+  !*** ./src/models/auth.ts ***!
+  \****************************/
+
+/*!****************************!*\
+  !*** ./src/pages/index.ts ***!
+  \****************************/
+
+/*!****************************!*\
+  !*** ./src/store/index.ts ***!
+  \****************************/
+
+/*!****************************!*\
+  !*** ./src/utils/index.ts ***!
+  \****************************/
+
+/*!*****************************!*\
+  !*** ./src/api/consents.ts ***!
+  \*****************************/
+
+/*!*****************************!*\
+  !*** ./src/configs/i18n.ts ***!
+  \*****************************/
+
+/*!*****************************!*\
+  !*** ./src/helpers/user.ts ***!
+  \*****************************/
+
+/*!*****************************!*\
+  !*** ./src/models/alert.ts ***!
+  \*****************************/
+
+/*!*****************************!*\
+  !*** ./src/models/index.ts ***!
+  \*****************************/
+
+/*!******************************!*\
+  !*** ./src/api/approvals.ts ***!
+  \******************************/
+
+/*!******************************!*\
+  !*** ./src/configs/index.ts ***!
+  \******************************/
+
+/*!******************************!*\
+  !*** ./src/helpers/image.ts ***!
+  \******************************/
+
+/*!******************************!*\
+  !*** ./src/helpers/index.ts ***!
+  \******************************/
+
+/*!******************************!*\
+  !*** ./src/layouts/index.ts ***!
+  \******************************/
+
+/*!******************************!*\
+  !*** ./src/locales/index.ts ***!
+  \******************************/
+
+/*!******************************!*\
+  !*** ./src/models/global.ts ***!
+  \******************************/
+
+/*!******************************!*\
+  !*** ./src/models/tokens.ts ***!
+  \******************************/
+
+/*!*******************************!*\
+  !*** ./src/configs/routes.ts ***!
+  \*******************************/
+
+/*!*******************************!*\
+  !*** ./src/layouts/error.tsx ***!
+  \*******************************/
+
+/*!*******************************!*\
+  !*** ./src/layouts/inner.tsx ***!
+  \*******************************/
+
+/*!*******************************!*\
+  !*** ./src/layouts/login.tsx ***!
+  \*******************************/
+
+/*!*******************************!*\
+  !*** ./src/models/loaders.ts ***!
+  \*******************************/
+
+/*!*******************************!*\
+  !*** ./src/models/locales.ts ***!
+  \*******************************/
+
+/*!*******************************!*\
+  !*** ./src/models/profile.ts ***!
+  \*******************************/
+
+/*!*******************************!*\
+  !*** ./src/models/storage.ts ***!
+  \*******************************/
+
+/*!*******************************!*\
+  !*** ./src/pages/privacy.tsx ***!
+  \*******************************/
+
+/*!********************************!*\
+  !*** ./src/configs/globals.ts ***!
+  \********************************/
+
+/*!********************************!*\
+  !*** ./src/constants/index.ts ***!
+  \********************************/
+
+/*!********************************!*\
+  !*** ./src/helpers/history.ts ***!
+  \********************************/
+
+/*!********************************!*\
+  !*** ./src/models/consents.ts ***!
+  \********************************/
+
+/*!********************************!*\
+  !*** ./src/pages/overview.tsx ***!
+  \********************************/
+
+/*!*********************************!*\
+  !*** ./src/api/applications.ts ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/components/index.ts ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/layouts/default.tsx ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/locales/en/index.ts ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/locales/en/views.ts ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/locales/pt/index.ts ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/locales/pt/views.ts ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/locales/si/index.ts ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/locales/si/views.ts ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/locales/ta/index.ts ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/locales/ta/views.ts ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/models/approvals.ts ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/utils/http-utils.ts ***!
+  \*********************************/
+
+/*!**********************************!*\
+  !*** ./src/api/user-sessions.ts ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/locales/en/common.ts ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/locales/pt/common.ts ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/locales/si/common.ts ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/locales/ta/common.ts ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/models/app-config.ts ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/pages/errors/404.tsx ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/pages/operations.tsx ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/store/actions/api.ts ***!
+  \**********************************/
+
+/*!***********************************!*\
+  !*** ./src/pages/errors/index.ts ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/utils/filter-utils.ts ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/utils/search-utils.ts ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/utils/string-utils.ts ***!
+  \***********************************/
+
+/*!************************************!*\
+  !*** ./src/api/change-password.ts ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/api/linked-accounts.ts ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/models/applications.ts ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/pages/applications.tsx ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/store/actions/index.ts ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/utils/profile-utils.ts ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/utils/storage-utils.ts ***!
+  \************************************/
+
+/*!*************************************!*\
+  !*** ./src/helpers/base64-utils.js ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/helpers/http-headers.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/models/user-sessions.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/pages/personal-info.tsx ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/store/actions/global.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/store/middleware/api.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/store/reducers/index.ts ***!
+  \*************************************/
+
+/*!**************************************!*\
+  !*** ./src/api/multi-factor-fido.ts ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/api/multi-factor-totp.ts ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/components/shared/ui.tsx ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/store/actions/loaders.ts ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/store/actions/profile.ts ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/store/reducers/global.ts ***!
+  \**************************************/
+
+/*!***************************************!*\
+  !*** ./src/api/security-questions.ts ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/constants/ui-constants.ts ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/store/combine-reducers.ts ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/store/middleware/index.ts ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/store/reducers/loaders.ts ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/store/reducers/profile.ts ***!
+  \***************************************/
+
+/*!****************************************!*\
+  !*** ./src/components/footer/index.ts ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/components/header/index.ts ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/components/shared/icon.tsx ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/components/shared/index.ts ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/hooks/use-click-outside.ts ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/pages/account-security.tsx ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/store/actions/types/api.ts ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/utils/authenticate-util.ts ***!
+  \****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/components/profile/index.ts ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/components/shared/alert.tsx ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/components/shared/modal.tsx ***!
+  \*****************************************/
+
+/*!******************************************!*\
+  !*** ./src/components/consents/index.ts ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/components/footer/footer.tsx ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/components/header/header.tsx ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/components/overview/index.ts ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/components/shared/avatar.tsx ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/constants/token-constants.ts ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/helpers/user-agent-parser.ts ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/models/authenticated-user.ts ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/models/security-questions.ts ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/pages/consent-management.tsx ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/pages/errors/login-error.tsx ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/store/actions/types/index.ts ***!
+  \******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/api/federated-associations.ts ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/components/approvals/index.ts ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/constants/filter-constants.ts ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/helpers/app-config-context.ts ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/store/actions/authenticate.ts ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/store/actions/types/global.ts ***!
+  \*******************************************/
+
+/*!********************************************!*\
+  !*** ./src/components/profile/profile.tsx ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/components/side-panel/index.ts ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/store/actions/types/loaders.ts ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/store/actions/types/profile.ts ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/store/reducers/authenticate.ts ***!
+  \********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/components/applications/index.ts ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/components/consents/consents.tsx ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/components/overview/overview.tsx ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/components/shared/app-avatar.tsx ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/store/middleware/authenticate.ts ***!
+  \**********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/components/shared/danger-zone.tsx ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/components/shared/page-header.tsx ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/components/shared/user-avatar.tsx ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/components/user-sessions/index.ts ***!
+  \***********************************************/
+
+/*!************************************************!*\
+  !*** ./src/components/approvals/approvals.tsx ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./src/components/authentication/index.ts ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./src/components/shared/edit-section.tsx ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./src/constants/application-constants.ts ***!
+  \************************************************/
+
+/*!*************************************************!*\
+  !*** (webpack)/hot sync nonrecursive ^\.\/log$ ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/components/change-password/index.ts ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/components/linked-accounts/index.ts ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/components/shared/global-loader.tsx ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/store/actions/types/authenticate.ts ***!
+  \*************************************************/
+
+/*!**************************************************!*\
+  !*** ./src/components/account-recovery/index.ts ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./src/components/consents/consent-edit.tsx ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./src/components/overview/widgets/index.ts ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./src/components/shared/error-boundary.tsx ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./src/components/side-panel/side-panel.tsx ***!
+  \**************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/components/authentication/sign-in.tsx ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/components/consents/consents-list.tsx ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/components/profile/profile-export.tsx ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/components/shared/advanced-search.tsx ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/components/shared/protected-route.tsx ***!
+  \***************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/components/authentication/sign-out.tsx ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/components/shared/settings-section.tsx ***!
+  \****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./src/components/approvals/approvals-edit.tsx ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./src/components/approvals/approvals-list.tsx ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./src/components/shared/empty-placeholder.tsx ***!
+  \*****************************************************/
+
+/*!******************************************************!*\
+  !*** ./src/components/applications/applications.tsx ***!
+  \******************************************************/
+
+/*!********************************************************!*\
+  !*** ./src/components/federated-associations/index.ts ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./src/components/side-panel/side-panel-items.tsx ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./src/components/user-sessions/user-sessions.tsx ***!
+  \********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./src/components/side-panel/side-panel-mobile.tsx ***!
+  \*********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./src/components/account-recovery/options/index.ts ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./src/components/applications/all-applications.tsx ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./src/components/applications/application-list.tsx ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./src/components/shared/language-switcher/index.ts ***!
+  \**********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./src/components/side-panel/side-panel-wrapper.tsx ***!
+  \**********************************************************/
+
+/*!***********************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/utils.js ***!
+  \***********************************************************/
+
+/*!************************************************************!*\
+  !*** ./src/components/applications/application-search.tsx ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./src/components/change-password/change-password.tsx ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./src/components/linked-accounts/linked-accounts.tsx ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/models.js ***!
+  \************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./src/components/applications/recent-applications.tsx ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./src/components/multi-factor-authentication/index.ts ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./src/components/user-sessions/user-sessions-edit.tsx ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./src/components/user-sessions/user-sessions-list.tsx ***!
+  \*************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./src/components/account-recovery/account-recovery.tsx ***!
+  \**************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./src/components/applications/application-list-item.tsx ***!
+  \***************************************************************/
+
+/*!****************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/http/dist/index.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/src/index.js ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/src/theme.js ***!
+  \****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./src/components/applications/recent-application-card.tsx ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./src/components/linked-accounts/linked-accounts-edit.tsx ***!
+  \*****************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./src/components/linked-accounts/linked-accounts-list.tsx ***!
+  \*****************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./src/components/overview/widgets/user-sessions-widget.tsx ***!
+  \******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./src/components/overview/widgets/account-status-widget.tsx ***!
+  \*******************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./src/components/account-recovery/options/email-recovery.tsx ***!
+  \********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./src/components/overview/widgets/account-security-widget.tsx ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/forms/dist/src/forms.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/forms/dist/src/index.js ***!
+  \*********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/validation/dist/index.js ***!
+  \**********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./src/components/overview/widgets/consent-management-widget.tsx ***!
+  \***********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./src/components/shared/language-switcher/language-switcher.tsx ***!
+  \***********************************************************************/
+
+/*!************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/http/dist/clients/index.js ***!
+  \************************************************************************/
+
+/*!************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/http/dist/helpers/index.js ***!
+  \************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/authentication/src/index.js ***!
+  \*************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** ./src/components/federated-associations/federated-associations.tsx ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/authentication/src/client.ts ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/models/core.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/models/http.js ***!
+  \**************************************************************************/
+
+/*!**************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/utils/index.js ***!
+  \**************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/models/index.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/forms/dist/src/utils/index.js ***!
+  \***************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/validation/dist/validation.js ***!
+  \***************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./src/components/multi-factor-authentication/authenticators/index.ts ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/helpers/index.js ***!
+  \****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/helpers/common.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/models/profile.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/models/storage.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/forms/dist/src/helpers/index.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/http/dist/helpers/decorators.js ***!
+  \*****************************************************************************/
+
+/*!*****************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/theme-variables.json ***!
+  \*****************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/constants/index.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/helpers/history.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/helpers/profile.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/utils/url-utils.js ***!
+  \******************************************************************************/
+
+/*!******************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/node_modules/moment/locale sync ^\.\/.*$ ***!
+  \******************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/utils/http-utils.js ***!
+  \*******************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./src/components/shared/language-switcher/language-switcher-dropdown.tsx ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/utils/image-utils.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/utils/route-utils.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/forms/dist/src/components/field.js ***!
+  \********************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/forms/dist/src/components/index.js ***!
+  \********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** ./src/components/account-recovery/options/security-questions-recovery.tsx ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/authentication/src/models/client.ts ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/utils/search-utils.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/utils/string-utils.js ***!
+  \*********************************************************************************/
+
+/*!*********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/forms/dist/src/utils/use-trigger.js ***!
+  \*********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/authentication/src/actions/crypto.ts ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/authentication/src/constants/user.ts ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/utils/context-utils.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/utils/storage-utils.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/forms/dist/src/helpers/typeguards.js ***!
+  \**********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/forms/dist/src/utils/filter-props.js ***!
+  \**********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/authentication/src/actions/session.ts ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/authentication/src/actions/sign-in.ts ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/authentication/src/constants/index.ts ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/authentication/src/constants/token.ts ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/helpers/http-headers.js ***!
+  \***********************************************************************************/
+
+/*!***********************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/forms/dist/src/components/password.js ***!
+  \***********************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** ./src/components/multi-factor-authentication/multi-factor-authentication.tsx ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/authentication/src/actions/sign-out.ts ***!
+  \************************************************************************************/
+
+/*!************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/http/dist/clients/axios-http-client.js ***!
+  \************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/authentication/src/actions/op-config.ts ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/constants/is-constants.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/constants/ui-constants.js ***!
+  \*************************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/helpers/access-control.js ***!
+  \*************************************************************************************/
+
+/*!**************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/constants/app-constants.js ***!
+  \**************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/authentication/src/constants/endpoints.ts ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/utils/authenticate-utils.js ***!
+  \***************************************************************************************/
+
+/*!***************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/forms/dist/src/components/group-fields.js ***!
+  \***************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/constants/token-constants.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/helpers/user-agent-parser.js ***!
+  \****************************************************************************************/
+
+/*!****************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/utils/encode-decode-utils.js ***!
+  \****************************************************************************************/
+
+/*!*****************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/constants/common-constants.js ***!
+  \*****************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./src/components/multi-factor-authentication/authenticators/fido-authenticator.tsx ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** ./src/components/multi-factor-authentication/authenticators/totp-authenticator.tsx ***!
+  \******************************************************************************************/
+
+/*!******************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/core/dist/src/constants/pattern-constants.js ***!
+  \******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/forms/dist/src/components/query-parameters.js ***!
+  \*******************************************************************************************/
+
+/*!*******************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/forms/dist/src/components/syntactic-sugars.js ***!
+  \*******************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** ./src/components/multi-factor-authentication/authenticators/smsotp-authenticator.tsx ***!
+  \********************************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/forms/dist/src/utils/use-non-initial-effect.js ***!
+  \********************************************************************************************/
+
+/*!**********************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/authentication/src/models/oidc-request-params.ts ***!
+  \**********************************************************************************************/
+
+/*!**************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/authentication/src/constants/authentication_types.ts ***!
+  \**************************************************************************************************/
+
+/*!**************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/logo.svg ***!
+  \**************************************************************************************************/
+
+/*!**************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/user.png ***!
+  \**************************************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/validation/dist/plugins/text-encoder-polyfill/index.js ***!
+  \****************************************************************************************************/
+
+/*!**********************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/upload.svg ***!
+  \**********************************************************************************************************/
+
+/*!***********************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/gravatar-logo.png ***!
+  \***********************************************************************************************************/
+
+/*!***********************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/package.svg ***!
+  \***********************************************************************************************************/
+
+/*!***********************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/social/google.svg ***!
+  \***********************************************************************************************************/
+
+/*!************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/app-icon.svg ***!
+  \************************************************************************************************************/
+
+/*!************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/box-icon.svg ***!
+  \************************************************************************************************************/
+
+/*!************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/dot-icon.svg ***!
+  \************************************************************************************************************/
+
+/*!************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/pin-icon.svg ***!
+  \************************************************************************************************************/
+
+/*!************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/sms-icon.svg ***!
+  \************************************************************************************************************/
+
+/*!************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/protocols/oidc.png ***!
+  \************************************************************************************************************/
+
+/*!************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/protocols/saml.png ***!
+  \************************************************************************************************************/
+
+/*!************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/social/twitter.svg ***!
+  \************************************************************************************************************/
+
+/*!************************************************************************************************************!*\
+  !*** multi (webpack)-dev-server/client?https://localhost:9000 (webpack)/hot/dev-server.js ./src/index.tsx ***!
+  \************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/connectors/scim.png ***!
+  \*************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/connectors/spml.png ***!
+  \*************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/code-icon.svg ***!
+  \*************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/drag-icon.svg ***!
+  \*************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/info-icon.svg ***!
+  \*************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/lock-icon.svg ***!
+  \*************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/plug-icon.svg ***!
+  \*************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/user-icon.svg ***!
+  \*************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/social/facebook.svg ***!
+  \*************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/home_consent_mgt.png ***!
+  \**************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/home_profile_mgt.png ***!
+  \**************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/alert-icon.svg ***!
+  \**************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/close-icon.svg ***!
+  \**************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/cross-icon.svg ***!
+  \**************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/email-icon.svg ***!
+  \**************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/error-icon.svg ***!
+  \**************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/gears-icon.svg ***!
+  \**************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/tools-icon.svg ***!
+  \**************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/user-store.svg ***!
+  \**************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/protocols/openid.png ***!
+  \**************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/protocols/ws-fed.png ***!
+  \**************************************************************************************************************/
+
+/*!***************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/home_security_mgt.png ***!
+  \***************************************************************************************************************/
+
+/*!***************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/claims-icon.svg ***!
+  \***************************************************************************************************************/
+
+/*!***************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/fingerprint.svg ***!
+  \***************************************************************************************************************/
+
+/*!***************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/launch-icon.svg ***!
+  \***************************************************************************************************************/
+
+/*!***************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/lock-shield.svg ***!
+  \***************************************************************************************************************/
+
+/*!***************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/report-icon.svg ***!
+  \***************************************************************************************************************/
+
+/*!****************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/consent-icon.svg ***!
+  \****************************************************************************************************************/
+
+/*!****************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/monitor-icon.svg ***!
+  \****************************************************************************************************************/
+
+/*!****************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/padlock-icon.svg ***!
+  \****************************************************************************************************************/
+
+/*!****************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/success-icon.svg ***!
+  \****************************************************************************************************************/
+
+/*!****************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/warning-icon.svg ***!
+  \****************************************************************************************************************/
+
+/*!****************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/protocols/ws-trust.png ***!
+  \****************************************************************************************************************/
+
+/*!*****************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/app-icon-background.png ***!
+  \*****************************************************************************************************************/
+
+/*!*****************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/authenticators/fido.png ***!
+  \*****************************************************************************************************************/
+
+/*!*****************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/authenticators/totp.png ***!
+  \*****************************************************************************************************************/
+
+/*!*****************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/controls-icon.svg ***!
+  \*****************************************************************************************************************/
+
+/*!*****************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/database-icon.svg ***!
+  \*****************************************************************************************************************/
+
+/*!*****************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/document-icon.svg ***!
+  \*****************************************************************************************************************/
+
+/*!*****************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/maximize-icon.svg ***!
+  \*****************************************************************************************************************/
+
+/*!*****************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/minimize-icon.svg ***!
+  \*****************************************************************************************************************/
+
+/*!*****************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/badge.svg ***!
+  \*****************************************************************************************************************/
+
+/*!******************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/dashboard-icon.svg ***!
+  \******************************************************************************************************************/
+
+/*!******************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/forbidden-icon.svg ***!
+  \******************************************************************************************************************/
+
+/*!******************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/magnifier-icon.svg ***!
+  \******************************************************************************************************************/
+
+/*!******************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/ribbon.svg ***!
+  \******************************************************************************************************************/
+
+/*!*******************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/connectors/salesforce.png ***!
+  \*******************************************************************************************************************/
+
+/*!*******************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/database-avatar.svg ***!
+  \*******************************************************************************************************************/
+
+/*!*******************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/spin-wheel-icon.svg ***!
+  \*******************************************************************************************************************/
+
+/*!*******************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/technologies/jwt-logo.svg ***!
+  \*******************************************************************************************************************/
+
+/*!*******************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/technologies/vue-logo.svg ***!
+  \*******************************************************************************************************************/
+
+/*!********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/authenticators/sms-otp.svg ***!
+  \********************************************************************************************************************/
+
+/*!********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/arrow-right-icon.svg ***!
+  \********************************************************************************************************************/
+
+/*!********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/caret-right-icon.svg ***!
+  \********************************************************************************************************************/
+
+/*!********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/certificate-icon.svg ***!
+  \********************************************************************************************************************/
+
+/*!********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/tick-circle-icon.svg ***!
+  \********************************************************************************************************************/
+
+/*!********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/technologies/html-logo.svg ***!
+  \********************************************************************************************************************/
+
+/*!********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/technologies/java-logo.svg ***!
+  \********************************************************************************************************************/
+
+/*!********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/third-party/yahoo-logo.svg ***!
+  \********************************************************************************************************************/
+
+/*!*********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/drag-squares-icon.svg ***!
+  \*********************************************************************************************************************/
+
+/*!*********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/technologies/apple-logo.svg ***!
+  \*********************************************************************************************************************/
+
+/*!*********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/technologies/react-logo.svg ***!
+  \*********************************************************************************************************************/
+
+/*!**********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/authenticators/email-otp.svg ***!
+  \**********************************************************************************************************************/
+
+/*!**********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/certificate-avatar.svg ***!
+  \**********************************************************************************************************************/
+
+/*!**********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/clock-colored-icon.svg ***!
+  \**********************************************************************************************************************/
+
+/*!**********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/technologies/dotnet-logo.svg ***!
+  \**********************************************************************************************************************/
+
+/*!**********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/technologies/nodejs-logo.svg ***!
+  \**********************************************************************************************************************/
+
+/*!***********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/authenticators/basic-auth.png ***!
+  \***********************************************************************************************************************/
+
+/*!***********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/certificate.svg ***!
+  \***********************************************************************************************************************/
+
+/*!***********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/qrcode-scan.svg ***!
+  \***********************************************************************************************************************/
+
+/*!***********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/technologies/android-logo.svg ***!
+  \***********************************************************************************************************************/
+
+/*!***********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/technologies/angular-logo.svg ***!
+  \***********************************************************************************************************************/
+
+/*!***********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/technologies/c-sharp-logo.svg ***!
+  \***********************************************************************************************************************/
+
+/*!***********************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/technologies/cordova-logo.svg ***!
+  \***********************************************************************************************************************/
+
+/*!************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/accounts-status-icons/good.svg ***!
+  \************************************************************************************************************************/
+
+/*!************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/third-party/microsoft-logo.svg ***!
+  \************************************************************************************************************************/
+
+/*!*************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/third-party/office-365-logo.svg ***!
+  \*************************************************************************************************************************/
+
+/*!*************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/validation/dist/plugins/text-encoder-polyfill/EncoderDecoderTogether.min.js ***!
+  \*************************************************************************************************************************/
+
+/*!**************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/accounts-status-icons/danger.svg ***!
+  \**************************************************************************************************************************/
+
+/*!**************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/authenticator-app-icon.svg ***!
+  \**************************************************************************************************************************/
+
+/*!**************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/blocked-magnifier-icon.svg ***!
+  \**************************************************************************************************************************/
+
+/*!**************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/magnifier-colored-icon.svg ***!
+  \**************************************************************************************************************************/
+
+/*!**************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/profile-export.svg ***!
+  \**************************************************************************************************************************/
+
+/*!**************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/technologies/javascript-logo.svg ***!
+  \**************************************************************************************************************************/
+
+/*!***************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/accounts-status-icons/warning.svg ***!
+  \***************************************************************************************************************************/
+
+/*!***************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/security-questions-icon.svg ***!
+  \***************************************************************************************************************************/
+
+/*!***************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/ad-illustration.svg ***!
+  \***************************************************************************************************************************/
+
+/*!***************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/change-password.svg ***!
+  \***************************************************************************************************************************/
+
+/*!****************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/icons/certificate-colored-icon.svg ***!
+  \****************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/jdbc-illustration.svg ***!
+  \*****************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/ldap-illustration.svg ***!
+  \*****************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/no-search-results.svg ***!
+  \*****************************************************************************************************************************/
+
+/*!******************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/security-questions.svg ***!
+  \******************************************************************************************************************************/
+
+/*!*******************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/associated-accounts.svg ***!
+  \*******************************************************************************************************************************/
+
+/*!*******************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/profile-export-mini.svg ***!
+  \*******************************************************************************************************************************/
+
+/*!********************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/change-password-mini.svg ***!
+  \********************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/federated-associations.svg ***!
+  \**********************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/custom-app-illustration.svg ***!
+  \***********************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/enter-verification-code.svg ***!
+  \***********************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/security-questions-mini.svg ***!
+  \***********************************************************************************************************************************/
+
+/*!************************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/associated-accounts-mini.svg ***!
+  \************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/spa-template-illustration.svg ***!
+  \*************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/identity-provider-capabilities/provision.svg ***!
+  \**************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/federated-associations-mini.svg ***!
+  \***************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/identity-providers/expert-idp-illustration.svg ***!
+  \****************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/identity-providers/github-idp-illustration.svg ***!
+  \****************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/identity-providers/google-idp-illustration.svg ***!
+  \****************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/identity-providers/twitter-idp-illustration.svg ***!
+  \*****************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/windows-template-illustration.svg ***!
+  \*****************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/identity-providers/facebook-idp-illustration.svg ***!
+  \******************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/ws-trust-template-illustration.svg ***!
+  \******************************************************************************************************************************************/
+
+/*!*******************************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/identity-provider-capabilities/authentication.svg ***!
+  \*******************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/passive-sts-template-illustration.svg ***!
+  \*********************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/oidc-web-app-template-illustration.svg ***!
+  \**********************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************!*\
+  !*** D:/GitHub/Jerad/identity-apps/modules/theme/dist/lib/themes/default/assets/images/illustrations/saml-web-app-template-illustration.svg ***!
+  \**********************************************************************************************************************************************/

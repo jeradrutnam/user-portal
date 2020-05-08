@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <!--
  * Copyright (c) 2019, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
  *
@@ -18,15 +16,85 @@
  * under the License.
  -->
 
+<!doctype html>
 <html>
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <link href="libs/styles/css/wso2-default.css" rel="stylesheet" type="text/css"/>
+        <meta name="referrer" content="no-referrer" />
+
+        <link href="/user-portal/libs/themes/default/theme.min.css" rel="stylesheet" type="text/css"/>
         
         <title>WSO2 Identity Server</title>
+
+        <!-- runtime config -->
+        <script src="/user-portal/runtime-config.js"></script>
+        <!-- runtime config -->
+
+        <script>
+            var getTenantPrefix = function() {
+                return "t";
+            };
+
+            var getSuperTenant = function() {
+                return "carbon.super";
+            };
+
+            var getTenantName = function() {
+                var paths = window.location.pathname.split("/");
+                var tenantIndex = paths.indexOf(getTenantPrefix());
+
+                if (tenantIndex > 0) {
+                    var tenantName = paths[tenantIndex + 1];
+                    return (tenantName) ? tenantName : "";
+                } else {
+                    return "";
+                }
+            };
+
+            var getTenantPath = function(tenantName) {
+                return (tenantName !== "") ? "/" + getTenantPrefix() + "/" + tenantName : "";
+            };
+
+            /**
+             * =====================================================
+             * Update below details according to your configuration
+             * =====================================================
+             */
+
+            // Update below with tenant user-portal application/service-provider details
+            var serverOriginAddress = "https://localhost:9443";
+            var clientOriginAddress = window.location.origin;
+
+            var tenantName = getTenantName();
+            var defaultUserPortalClientID = "USER_PORTAL";
+            var tenantUserPortalClientID = defaultUserPortalClientID + "_" + tenantName;
+
+            /** ===================================================== */
+
+            if (!window.userConfig) {
+                window.userConfig = {};
+            }
+
+            window["runConfig"] = {
+                appBaseName: window.userConfig.appBaseName || getTenantPath(tenantName) + 
+                    "/user-portal",
+                clientHost: window.userConfig.clientHost || clientOriginAddress + getTenantPath(tenantName),
+                clientOrigin: window.userConfig.clientOrigin || clientOriginAddress,
+                clientID: window.userConfig.clientID || 
+                    (getTenantPath(tenantName) === ("/" + getTenantPrefix() + "/" + tenantName)) ? 
+                    tenantUserPortalClientID : defaultUserPortalClientID,
+                serverHost: window.userConfig.serverHost || serverOriginAddress + getTenantPath(tenantName),
+                serverOrigin: window.userConfig.serverOrigin || serverOriginAddress,
+                tenant: window.userConfig.tenant || (tenantName === "") ? getSuperTenant() : tenantName,
+                tenantPath: window.userConfig.tenantPath || getTenantPath(tenantName)
+            };
+        </script>
     <link rel="shortcut icon" href="/user-portal/favicon.ico"></head>
     <body>
+        <noscript>
+            You need to enable JavaScript to run this app.
+        </noscript>
         <div id="root"></div>
-    <script type="text/javascript" src="/user-portal/main.js?40079e867dc802c8f8f7"></script></body>
+    <script type="text/javascript" src="/user-portal/vendors~main.js?f89715bf9ba3a8f0dde9"></script><script type="text/javascript" src="/user-portal/main.js?f89715bf9ba3a8f0dde9"></script></body>
 </html>
